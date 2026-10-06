@@ -1,16 +1,4 @@
 {
   "version": 1,
-  "items": [
-    {
-      "id": "20261006-2050",
-      "title": "痛墙 1.6-beta 发布",
-      "body": "这次的变化：\n· 备份与恢复\n· 平板模式（4 列 / 6 列）\n· 更新公告与下载\n点下面的按钮直接下载安装包。",
-      "minCode": 7,
-      "maxCode": 0,
-      "at": 1791291042960,
-      "link": "",
-      "apk": "https://github.com/chengchen-001/tongqiang-updates/releases/download/v1.6-beta/tongqiang-1.6-beta.apk",
-      "ver": "1.6-beta"
-    }
-  ]
+  "items": []
 }
