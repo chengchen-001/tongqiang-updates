@@ -1,4 +1,14 @@
 {
   "version": 1,
-  "items": []
+  "items": [
+    {
+      "id": "20261006-2040",
+      "title": "推送链路打通啦",
+      "body": "这条来自公开仓库 tongqiang-updates。\n· 走 jsDelivr CDN\n· 只在应用内弹一次窗",
+      "minCode": 7,
+      "maxCode": 0,
+      "at": 1791290454000,
+      "link": ""
+    }
+  ]
 }
