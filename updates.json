@@ -1,4 +1,9 @@
 {
-  "version": 1,
-  "items": []
+  "version": 2,
+  "latest": {
+    "code": 21,
+    "name": "1.7",
+    "apk": "https://github.com/chengchen-001/tongqiang-updates/releases/download/v1.7/tongqiang-1.7.apk",
+    "note": "· 新增「自由尺寸组件」：可随意拉伸，背景/贴纸/文字三层自定义\n· 自动签到改用接口直连：几秒完成，熄屏也能跑，不再依赖网页改版\n· 新增站点配置远程更新、后台静默更新、配置变更历史\n· 修复后台签到误判「没网」的根因\n· 移除了内置浏览器。注意：以前只在浏览器里登录过的，升级后请去「更多 → 毛怪签到登录」重新登录一次"
+  }
 }
