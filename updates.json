@@ -1,9 +1,9 @@
 {
   "version": 2,
   "latest": {
-    "code": 21,
-    "name": "1.7",
-    "apk": "https://github.com/chengchen-001/tongqiang-updates/releases/download/v1.7/tongqiang-1.7.apk",
-    "note": "· 新增「自由尺寸组件」：可随意拉伸，背景/贴纸/文字三层自定义\n· 自动签到改用接口直连：几秒完成，熄屏也能跑，不再依赖网页改版\n· 新增站点配置远程更新、后台静默更新、配置变更历史\n· 修复后台签到误判「没网」的根因\n· 移除了内置浏览器。注意：以前只在浏览器里登录过的，升级后请去「更多 → 毛怪签到登录」重新登录一次"
+    "code": 22,
+    "name": "1.7.1",
+    "apk": "https://github.com/chengchen-001/tongqiang-updates/releases/download/v1.7.1/tongqiang-1.7.1.apk",
+    "note": "· 修复：登录成功后刷新状态却提示「未登录或登录已过期」\n· 原因：这个站点的凭证走 Cookie，而 1.7 改成接口直连后只带了 authorization，等于没带凭证\n· 同时修掉「凭证无效就自动清除登录」——以前一失败就清，刷一下就得重新登录\n· 本次还包含 1.7 的全部内容：自由尺寸组件、签到改接口直连、站点配置远程更新"
   }
 }
