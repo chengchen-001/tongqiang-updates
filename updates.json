@@ -1,9 +1,9 @@
 {
   "version": 2,
   "latest": {
-    "code": 23,
-    "name": "1.7.2",
-    "apk": "https://github.com/chengchen-001/tongqiang-updates/releases/download/v1.7.2/tongqiang-1.7.2.apk",
-    "note": "· 修复「检查不到更新」：之前几条通道竞速，jsDelivr 的 CDN 缓存会先返回旧内容，导致误判为已是最新。现在改为 GitHub raw 直取\n· 拉不到有效版本信息时明确报「没能查到版本信息」，不再显示「已是最新」\n· 顺带修正几处过时说明：引导页与隐私政策里还写着「只模拟点击、不调接口」「内置浏览器」「AI 学习数据」，这些功能在 1.7 已移除或改变\n\n装过 1.7.1 的注意：那个版本本身带着检查更新的 bug，可能收不到本版提示，请手动装一次；之后就能正常收到更新了"
+    "code": 24,
+    "name": "1.7.3",
+    "apk": "https://github.com/chengchen-001/tongqiang-updates/releases/download/v1.7.3/tongqiang-1.7.3.apk",
+    "note": "· 修复自动签到在后台触发时提示「起前台服务被拒」\n· 原因：闹钟响时应用在后台，Android 12 起禁止后台启动前台服务。以前需要它是因为签到要开网页模拟点击，现在只是一次接口调用，1~2 秒就完\n· 现在闹钟触发时直接在广播里跑完签到，不再起任何前台服务，也少一条常驻通知\n· 顺带：没登录时直接跳过，不再浪费当天的失败重试次数"
   }
 }
