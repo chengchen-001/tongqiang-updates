@@ -1,1 +1,10 @@
-[]
+[
+  {
+    "id": "w_566a78c9a74142ba",
+    "name": "白发憨",
+    "type": "badge",
+    "bg": "plaza\/assets\/w_566a78c9a74142ba.png",
+    "shape": "circle",
+    "film": "gloss"
+  }
+]
