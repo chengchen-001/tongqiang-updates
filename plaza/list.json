@@ -6,5 +6,13 @@
     "bg": "plaza\/assets\/w_566a78c9a74142ba.png",
     "shape": "circle",
     "film": "gloss"
+  },
+  {
+    "id": "w_5e1634c3119e4803",
+    "name": "憨奶蛋",
+    "type": "badge",
+    "bg": "plaza\/assets\/w_5e1634c3119e4803.png",
+    "shape": "circle",
+    "film": "holo"
   }
 ]
